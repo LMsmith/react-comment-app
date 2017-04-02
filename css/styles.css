@@ -1,0 +1,62 @@
+body {
+        font-family: sans-serif;
+}
+
+.comment-box {
+    color: darkslategrey;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: darkslategrey;
+}
+
+button:hover {
+    color: dodgerblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3, button.toggle {
+    display: inline;
+}
+
+button.toggle {
+    margin-left: 20px;
+}
+
+.divide {
+    height: 1px;
+    width: 100%;
+    background: lightgray;
+    margin: 10px 0;
+}
+
+.comment-form {
+    margin-bottom: 10px;
+    background: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.comment-form label {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+ input, textarea {
+     display: block;
+     font-size: 12px;
+     width: 75%;
+     margin: 8px 0;
+ }
+
+ textarea {
+    height: 30px;
+}

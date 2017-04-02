@@ -36,8 +36,9 @@ class CommentBox extends React.Component {
         return (
             <div className="comment-box">
                 <CommentForm addComment={this._addComment.bind(this)} />
+                <div className="divide"></div>
                 <h3>Comments</h3>
-                <button onClick={this._handleClick.bind(this)}>{buttonText}</button>
+                <button className="toggle" onClick={this._handleClick.bind(this)}>{buttonText}</button>
                 <h4 className="comment-count">{this._getCommentsTitle(comments.length)}</h4>
                 {commentNodes}
             </div>

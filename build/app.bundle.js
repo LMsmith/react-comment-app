@@ -19380,6 +19380,7 @@ var CommentBox = function (_React$Component) {
                 'div',
                 { className: 'comment-box' },
                 React.createElement(CommentForm, { addComment: this._addComment.bind(this) }),
+                React.createElement('div', { className: 'divide' }),
                 React.createElement(
                     'h3',
                     null,
@@ -19387,7 +19388,7 @@ var CommentBox = function (_React$Component) {
                 ),
                 React.createElement(
                     'button',
-                    { onClick: this._handleClick.bind(this) },
+                    { className: 'toggle', onClick: this._handleClick.bind(this) },
                     buttonText
                 ),
                 React.createElement(
